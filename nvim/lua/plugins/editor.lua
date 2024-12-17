@@ -124,7 +124,9 @@ return {
         ";s",
         function()
           local builtin = require("telescope.builtin")
-          builtin.treesitter()
+          builtin.treesitter({
+            hidden = true,
+          })
         end,
         desc = "Lists Function names, variables, from Treesitter",
       },
@@ -211,3 +213,4 @@ return {
     end,
   },
 }
+

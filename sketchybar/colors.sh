@@ -1,43 +1,26 @@
 #!/bin/bash
 
-export WHITE=0xff2cf9ed
+# Color Palette (Dracula Theme)
+export BLACK=0x00000000
+export WHITE=0xffffffff
+export RED=0xffff5555
+export GREEN=0xff50fa7b
+export BLUE=0xffbd93f9
+export YELLOW=0xfff1fa8c
+export ORANGE=0xffffb86c
+export MAGENTA=0xffff79c6
+export GREY=0xff44475a
+export TEAL=0xff8be9fd
+export TRANSPARENT=0x00000000
 
-# -- Teal Scheme --
-export BAR_COLOR=0xff001f30
-export ITEM_BG_COLOR=0xff003547
-export ACCENT_COLOR=0xff2cf9ed
+# General bar colors
+export BAR_COLOR=0xff282a36    # Dracula background
+export ICON_COLOR=$GREEN       # Color of all icons
+export LABEL_COLOR=$TEAL       # Color of all labels
+export BACKGROUND_1=0x803E4153 # Semi-transparent background
+export BACKGROUND_2=0x66586e75 # Opaque background
 
-# -- Gray Scheme --
-# export BAR_COLOR=0xff101314
-# export ITEM_BG_COLOR=0xff353c3f
-# export ACCENT_COLOR=0xffffffff
+export POPUP_BACKGROUND_COLOR=0xff282a36
+export POPUP_BORDER_COLOR=$WHITE
 
-# -- Purple Scheme --
-# export BAR_COLOR=0xff140c42
-# export ITEM_BG_COLOR=0xff2b1c84
-# export ACCENT_COLOR=0xffeb46f9
-
-# -- Red Scheme ---
-# export BAR_COLOR=0xff23090e
-# export ITEM_BG_COLOR=0xff591221
-# export ACCENT_COLOR=0xffff2453
-
-# -- Blue Scheme ---
-# export BAR_COLOR=0xff021254
-# export ITEM_BG_COLOR=0xff093aa8
-# export ACCENT_COLOR=0xff15bdf9
-
-# -- Green Scheme --
-# export BAR_COLOR=0xff003315
-# export ITEM_BG_COLOR=0xff008c39
-# export ACCENT_COLOR=0xff1dfca1
-
-# -- Orange Scheme --
-# export BAR_COLOR=0xff381c02
-# export ITEM_BG_COLOR=0xff99440a
-# export ACCENT_COLOR=0xfff97716
-
-# -- Yellow Scheme --
-# export BAR_COLOR=0xff2d2b02
-# export ITEM_BG_COLOR=0xff8e7e0a
-# export ACCENT_COLOR=0xfff7fc17
+export SHADOW_COLOR=$BLACK
