@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-API_KEY="74bc51c4dd234899af9125402241808" # insert api key here
+API_KEY="" # insert api key here
 IP=$(curl -s https://ipinfo.io/ip)
 LOCATION_JSON=$(curl -s https://ipinfo.io/$IP/json)
 CITY="$(echo $LOCATION_JSON | jq '.city' | tr -d '"' | sed 's/ /%20/g')"
